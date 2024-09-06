@@ -1,26 +1,35 @@
+<!--starting page of App with image and links to adding and searching recipes-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue food-image" src="./assets/food-image.png">
+  <div id="app">
+    <nav>
+      <ul>
+        <li><router-link to="/add-recipe">Add Recipe</router-link></li>
+        <li><router-link to="/search-recipes">Search Recipes</router-link></li>
+      </ul>
+    </nav>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* Add some basic styling */
+img {
+  width: 200px;
+}
+
+nav ul {
+  list-style-type: disc;
+}
+
+nav a.router-link-active {
+  font-weight: bold;
 }
 </style>
