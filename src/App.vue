@@ -1,3 +1,5 @@
+<!-- this code was generated with the help of chatgpt using the prompt:
+ "I want to build a web app using vue.js, where i can add recipes to a SQLite databank and then search for recipes with specific ingredients"-->
 <!--starting page of App with image and links to adding and searching recipes-->
 <template>
   <img alt="Vue food-image" src="./assets/food-image.png">
