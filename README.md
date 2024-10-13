@@ -2,23 +2,19 @@
 
 ## Project setup
 ```
+clone https://github.com/annabanananana/recipe-app.git
+cd recipe-app/backend
+npm install
+cd recipe-app
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
+#### run the front-end app
+cd recipe-app
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+##### run the back end
+cd recipe-app/backend
+node index.js
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
