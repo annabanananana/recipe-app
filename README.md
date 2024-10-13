@@ -18,5 +18,9 @@ npm run serve
 cd recipe-app/backend
 node index.js
 ```
-###### Customize configuration
+###### open browser using the appropriate port, e.g.
+```
+http://localhost:8080/
+```
+####### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
