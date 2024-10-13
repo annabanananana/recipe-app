@@ -2,7 +2,7 @@
 <template>
     <div>
       <h2>Search Recipes</h2>
-      <input v-model="searchQuery" @input="searchRecipes" placeholder="Search by ingredient" />
+      <input v-model="searchQuery" @input="searchRecipes" class="search-input" placeholder="Search by ingredient" />
       <ul>
         <li v-for="recipe in recipes" :key="recipe.id">
           <h3>{{ recipe.name }}</h3>

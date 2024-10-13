@@ -1,4 +1,4 @@
-// src/services/RecipeService.js
+// requests to the backend; adding and searching recipes
 import axios from 'axios';
 
 const API_URL = 'http://localhost:3000';

@@ -1,4 +1,4 @@
-// backend/index.js
+// sets up express.js server to interact with the SQLite database
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');

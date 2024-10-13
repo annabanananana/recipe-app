@@ -1,10 +1,10 @@
-<!-- page for adding recipes with method-->
+<!-- page for adding example recipes, only optional, not necessary for working-->
 <template>
-    <div class="add-page">
-      <h2>Add Recipe</h2>
-      <form @submit.prevent="addRecipe" class="recipe-form">
+    <div>
+      <h2>Add Example Recipes</h2>
+      <form @submit.prevent="addRecipe">
         <div>
-          <label>Name:</label>
+          <label>Recipe no 1:</label>
           <textarea v-model="name"></textarea>
         </div>
         <div>
@@ -15,7 +15,7 @@
           <label>Instructions:</label>
           <textarea v-model="instructions"></textarea>
         </div>
-        <button type="submit" class="submit-button">Add Recipe</button>
+        <button type="submit">Add Example Recipe</button>
       </form>
     </div>
   </template>
@@ -39,9 +39,9 @@
           instructions: this.instructions,
         };
         RecipeService.addRecipe(recipe).then(() => {
-          this.name = '';
-          this.ingredients = '';
-          this.instructions = '';
+          this.name = 'Cucumber Salad';
+          this.ingredients = 'Cucumber, Onions, Dill, Vinegar, Olive Oil';
+          this.instructions = 'ad loru dkne sknep  kdnwd kdnw';
         });
       },
     },

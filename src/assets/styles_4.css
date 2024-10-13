@@ -1,0 +1,149 @@
+
+/* Mobile devices (up to 600px wide) */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .container {
+      padding: 10px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+   ul {
+      padding-left: 0;
+    }
+  
+    ul li {
+      list-style-type: none;
+      margin: 10px 0;
+    }
+  
+    .header-link {
+      font-size: 18px;                /* Link font size */
+      text-decoration: none;          /* Remove underline */
+      color: #007bff;                 /* Link color */
+      padding: 10px 20px;             /* Padding for link buttons */
+      border-radius: 5px;             /* Rounded corners */
+      border: 1px solid #007bff;      /* Add border */
+      transition: background-color 0.3s ease;
+    }
+  
+    .header-link:hover {
+      background-color: #070433;      /* Change background color on hover */
+      color: #fff;                    /* Change text color on hover */
+    }
+  
+    .search-input {
+      max-width: 100%;   /* Full width on mobile */
+      font-size: 14px;   /* Adjust font size for smaller screens */
+      padding: 8px;      /* Adjust padding */
+    }
+  
+    .submit-button {
+      width: 100%;           /* Full width on smaller screens */
+      max-width: 100%;       /* Ensure full width on mobile */
+      font-size: 14px;       /* Adjust font size for mobile */
+      height: 40px;          /* Slightly smaller height */
+      padding: 8px 15px;     /* Adjust padding */
+    }
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker background on hover */
+  }
+  
+  
+  /* Tablets (600px - 1024px wide) */
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    .container {
+      padding: 20px;
+      margin: 0 auto;
+      width: 80%;
+    }
+  }
+  
+    /* Desktops (900px and above) */
+    @media only screen and (min-width: 1024px) {
+      body {
+        font-size: 18px;
+      }
+    
+      h1 {
+        font-size: 32px;
+      }
+    
+      .container {
+        padding: 30px;
+        margin: 0 auto;
+        width: 70%;
+      }
+    }
+  
+  input[type="text"], textarea {
+    width: 100%;          /* Adjust the width */
+    height: 40px;         /* Set height */
+    padding: 10px;        /* Padding inside the text box */
+    font-size: 16px;      /* Adjust font size */
+    border-radius: 5px;   /* Rounded corners */
+    border: 1px solid #ccc; /* Border styling */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  textarea {
+    height: 120px; /* Set a larger height for text areas */
+  }
+  
+  img {
+    max-width: 20%;    /* Ensure the image doesn't overflow the container */
+    height: auto;       /* Maintain aspect ratio */
+    border-radius: 10px; /* OAdd rounded corners */
+  }
+  
+  .search-input {
+    width: 100%;         /* Makes the input take up the full width of the container */
+    max-width: 400px;    /* Sets a maximum width for larger screens */
+    height: 40px;        /* Sets the height of the input field */
+    padding: 10px;       /* Adds padding inside the input field */
+    font-size: 16px;     /* Adjusts the text size inside the input */
+    border-radius: 5px;  /* Adds rounded corners */
+    border: 1px solid #ccc; /* Adds a border */
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+  }
+  
+  
+  .submit-button {
+    width: 100%;             /* Full width */
+    max-width: 200px;        /* Limit the max width */
+    height: 45px;            /* Set a fixed height */
+    padding: 10px 20px;      /* Adjust the padding */
+    font-size: 16px;         /* Adjust the text size */
+    color: #fff;             /* Text color */
+    background-color: #28a745; /* Button background color */
+    border: none;            /* Remove border */
+    border-radius: 5px;      /* Rounded corners */
+    cursor: pointer;         /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker background on hover */
+  }
