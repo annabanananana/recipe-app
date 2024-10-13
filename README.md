@@ -16,5 +16,5 @@ npm run serve
 cd recipe-app/backend
 node index.js
 
-### Customize configuration
+###### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
