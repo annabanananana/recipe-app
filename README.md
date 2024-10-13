@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-clone https://github.com/annabanananana/recipe-app.git
+git clone https://github.com/annabanananana/recipe-app.git
 cd recipe-app/backend
 npm install
 cd recipe-app
