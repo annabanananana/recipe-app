@@ -3,6 +3,7 @@
 ## Project setup
 ```
 git clone https://github.com/annabanananana/recipe-app.git
+or download and extract file
 cd recipe-app/backend
 npm install
 cd recipe-app
